@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25041277-dd68-4956-9e27-fb528e98394b" name="Changes" comment="Added 2 unit tests in Exercise003Test">
-      <change afterPath="$PROJECT_DIR$/.idea/java_coding_exercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="25041277-dd68-4956-9e27-fb528e98394b" name="Changes" comment="Added 2 unit tests for Exercise004Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/techreturners/exercise003/Exercise003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techreturners/exercise003/Exercise003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techreturners/exercise003/Exercise003Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techreturners/exercise003/Exercise003Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techreturners/exercise004/Exercise004Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techreturners/exercise004/Exercise004Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +157,9 @@
     <MESSAGE value="Completed exercise001-exercise005 without adding additional unit tests" />
     <MESSAGE value="Committed workspace.xml" />
     <MESSAGE value="Added 2 unit tests in Exercise003Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 2 unit tests in Exercise003Test" />
+    <MESSAGE value="Added 2 unit tests and made edit for checkPickMultipleIceCreamFlavours() method in Exercise003Test" />
+    <MESSAGE value="Added 3 unit tests for Exercise005Test" />
+    <MESSAGE value="Added 2 unit tests for Exercise004Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 unit tests for Exercise004Test" />
   </component>
 </project>
