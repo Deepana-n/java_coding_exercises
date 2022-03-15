@@ -44,7 +44,7 @@ public class Exercise004Test {
 
     @Test(expected = DateTimeException.class)
     public void checkGetDateTimeWhenInvalidDateIsEntered() {
-        Exercise004 ex004 = new Exercise004(LocalDate.of(2021, Month.JULY, 90));
+       new Exercise004(LocalDate.of(2021, Month.JULY, 90));
     }
 
     @Test
