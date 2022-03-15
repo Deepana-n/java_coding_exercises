@@ -61,4 +61,19 @@ public class Exercise005Test {
         assertTrue(ex005.isPangram("the 1 quick brown fox jumps over the 2 lazy dogs"));
     }
 
+    @Test
+    public void checkSentenceOnlyWithNumbersIsNotAPangram(){
+        assertFalse(ex005.isPangram("1234567890"));
+    }
+
+    @Test
+    public void checkSentenceOnlyWithCharactersIsNotAPangram(){
+        assertFalse(ex005.isPangram("!@#$%^&*()"));
+    }
+
+    @Test
+    public void checkLongSentenceWithPeriodIsPangram(){
+        assertTrue(ex005.isPangram("Jim quickly realized that the beautiful gowns are expensive."));
+    }
+
 }
