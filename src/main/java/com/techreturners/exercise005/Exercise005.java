@@ -1,9 +1,22 @@
 package com.techreturners.exercise005;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Exercise005 {
 
     public boolean isPangram(String input) {
-        throw new UnsupportedOperationException("You can delete this statement and add your code here.");
+        //pangram is a sentence/word using every letter of the alphabet at least once
+        Set<Character> set = new HashSet<>();
+
+        for(char c : input.toLowerCase().toCharArray()){
+            if(Character.isLetter(c)){
+               set.add(c);}
+
+        }
+
+        return set.size()==26;
+
     }
 
 }

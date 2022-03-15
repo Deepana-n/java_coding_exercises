@@ -4,16 +4,18 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Exercise004 {
-
+    private final LocalDateTime result;
     public Exercise004(LocalDate date) {
-        throw new UnsupportedOperationException("You can delete this statement and add your code here.");
+        LocalDateTime dateTime = date.atStartOfDay();
+        result = dateTime.plusSeconds(1000000000);
     }
 
     public Exercise004(LocalDateTime dateTime) {
-        throw new UnsupportedOperationException("You can delete this statement and add your code here.");
+        result = dateTime.plusSeconds(1000000000);
     }
 
     public LocalDateTime getDateTime() {
-        throw new UnsupportedOperationException("You can delete this statement and add your code here.");
+        return result;
+
     }
 }
