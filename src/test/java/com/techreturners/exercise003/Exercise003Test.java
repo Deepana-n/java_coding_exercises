@@ -3,15 +3,16 @@ package com.techreturners.exercise003;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 public class Exercise003Test {
 
-    private Exercise003 ex003;
+    private com.techreturners.exercise003.Exercise003 ex003;
 
     @Before
     public void setup() {
-        ex003 = new Exercise003();
+        ex003 = new com.techreturners.exercise003.Exercise003();
     }
 
     @Test
@@ -43,8 +44,25 @@ public class Exercise003Test {
 
         String[] expected = { "Pistachio", "Raspberry Ripple", "Vanilla", "Mint Chocolate Chip", "Chocolate", "Mango Sorbet" };
 
-        assertEquals(expected, ex003.iceCreamFlavours());
+        assertArrayEquals(expected, ex003.iceCreamFlavours()); //assertEquals deprecated for comparing 2 objects so changed it to assertArrayEquals
     }
+
+    @Test
+    public void checkGetIceCreamCodeForIncorrectFlavour() {
+        String iceCreamFlavour = "Vanila";
+        int expected = -1;
+
+        assertEquals(expected, ex003.getIceCreamCode(iceCreamFlavour));
+    }
+
+    @Test
+    public void checkGetIceCreamCodeForVanilla(){
+        String iceCreamFlavour = "Vanilla";
+        int expected = 2;
+
+        assertEquals(expected, ex003.getIceCreamCode(iceCreamFlavour));
+    }
+
 
 
 }

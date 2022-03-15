@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="25041277-dd68-4956-9e27-fb528e98394b" name="Changes" comment="">
+    <list default="true" id="25041277-dd68-4956-9e27-fb528e98394b" name="Changes" comment="Added 2 unit tests in Exercise003Test">
+      <change afterPath="$PROJECT_DIR$/.idea/java_coding_exercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techreturners/exercise003/Exercise003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techreturners/exercise003/Exercise003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techreturners/exercise003/Exercise003Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techreturners/exercise003/Exercise003Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +46,10 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/techreturners/exercise003/Exercise003.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/techreturners/exercise003/Exercise003Test.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -59,10 +71,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunManager">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -146,7 +159,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed exercise001-exercise005 without adding additional unit tests" />
-    <MESSAGE value="Committed Person.java file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committed Person.java file" />
+    <MESSAGE value="Committed workspace.xml" />
+    <MESSAGE value="Added 2 unit tests in Exercise003Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 unit tests in Exercise003Test" />
   </component>
 </project>

@@ -1,12 +1,15 @@
 package com.techreturners.exercise003;
 
 import java.util.Arrays;
+import java.util.List;
+
 
 public class Exercise003 {
 
     int getIceCreamCode(String iceCreamFlavour) {
         //instead of using a for loop,convert array to list and then use indexOf()
-        return Arrays.asList(iceCreamFlavours()).indexOf(iceCreamFlavour);
+        List<String> list = Arrays.asList(iceCreamFlavours());
+        return list.contains(iceCreamFlavour) ? list.indexOf(iceCreamFlavour) : -1;
     }
 
     String[] iceCreamFlavours() {
