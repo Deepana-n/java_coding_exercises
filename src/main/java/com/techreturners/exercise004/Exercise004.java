@@ -5,13 +5,15 @@ import java.time.LocalDateTime;
 
 public class Exercise004 {
     private final LocalDateTime result;
+    private static final long GIGASECOND = 1000000000;
+
     public Exercise004(LocalDate date) {
         LocalDateTime dateTime = date.atStartOfDay();
-        result = dateTime.plusSeconds(1000000000);
+        result = dateTime.plusSeconds(GIGASECOND);
     }
 
     public Exercise004(LocalDateTime dateTime) {
-        result = dateTime.plusSeconds(1000000000);
+        result = dateTime.plusSeconds(GIGASECOND);
     }
 
     public LocalDateTime getDateTime() {
